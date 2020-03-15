@@ -8,5 +8,5 @@ Fitxer qgis.py : agafa la capa activa (grid de catalunya) i el csv obtingut de f
 
 Fitxer farmacies3.py converteix els csv a osm
 
-Lamento errors i explicació, però hi ha molta pressa.
+Lamento errors, hardcoding i explicació, però hi ha molta pressa.
 

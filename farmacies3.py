@@ -9,7 +9,7 @@ for in_file in in_files:
     in_csv = csv.reader(in_fd, delimiter=',')
     out_fd = open('/home3/jaume/farmacies-josm/' + name + '.osm', 'w')
     out_fd.write("<?xml version='1.0' encoding='UTF-8'?>\n")
-    out_fd.writelines("<osm version='0.6' generator='Farmacies CODIV-19'>\n")
+    out_fd.writelines("<osm version='0.6' generator='Farmacies COVID-19'>\n")
     i = -1
     for farmacia in in_csv:
         out_fd.writelines("\t<node id='" + str(i) + "' visible='true' lat='" + farmacia[17] + "' lon='" + farmacia[16] + "'>\n")
